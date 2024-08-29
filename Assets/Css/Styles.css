@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Archivo", sans-serif;
+}
+
+:root {
+    --color-graybase-100: #1c1a24;
+    --color-graybase-200: #282335;
+    --color-graybase-300: #312f3d;
+
+    --color-graybase-400: #322F3F;
+    --color-graybase-400-opacity-25: rgba(50, 47, 63, 0.25);
+
+    --color-graybase-600: #3D3355;
+    --color-graybase-600-opacity-65: rgba(61, 51, 85, 0.65);
+
+    --color-graybase-800: #535061;
+    --color-graybase-900: #545068;
+
+    --color-graybase-1000: #797979;
+    --color-graybase-1100: #C8C8C8;
+    --color-graybase-1200: #D9D9D9;
+    --color-graybase-1300: #DDDDDD;
+
+    --color-purple-100-opacity-50: rgba(128, 108, 245, 0.50);
+    --color-purple-100-opacity-75: rgba(128, 108, 245, 0.75);
+
+    --color-green-100: #B3F6C2;
+    --color-yellow-100: #FFE600;
+
+    --padding-left-right: 5.5vw;
+    
+    --fontsize-text: 14px;
+    --fontsize-title: 24px;
+
+}
+
+
+.Fundo-Home {
+    height: 105vh;
+    background: linear-gradient(120deg, #302b41d7, #000000a6), url(../Img/Fundos/Fundo-Home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 0.3vh solid white;
+}
